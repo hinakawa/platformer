@@ -1,0 +1,13 @@
+.player {
+    background: green;
+}
+.lost .player {
+    background: rgb(160, 64, 64);
+}
+.won .player {
+    box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
+
+.coin {
+    background: gold;
+}
