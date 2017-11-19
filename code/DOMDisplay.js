@@ -1,6 +1,5 @@
 // DOM-Display drawing module
-define([
-], function() {
+define(function() {
     'use strict';
     // Simple create tag with class-property in DOM
     function elt(name, className) {

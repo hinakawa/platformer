@@ -1,5 +1,5 @@
 .background { 
-    background: rgb(52, 166, 251);
+    background-image: url("./src/back.png");
     table-layout: fixed;
     border-spacing: 0;
     position: relative;
@@ -8,8 +8,9 @@
     padding: 0; 
 }
 .lava { 
-    background: rgb(255, 100, 100); 
+    background-image: url("./src/lava.png");
+    opacity: 0.7;
 }
 .wall { 
-    background: white; 
+    background-image: url("./src/wall.png");
 }

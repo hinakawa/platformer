@@ -1,5 +1,6 @@
 .game {
     overflow: hidden;
-    max-width: 1680px;
+    max-width: 1200px;
+    max-height: 1200px;
     position: relative;
-}
+  }

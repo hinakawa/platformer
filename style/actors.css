@@ -1,13 +1,16 @@
+.actor {
+    position: absolute;
+}
 .player {
     background: green;
+    opacity: 0.8;
 }
 .lost .player {
-    background: rgb(160, 64, 64);
+    background: rgb(64, 82, 160);
 }
 .won .player {
-    box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+    box-shadow: -4px -7px 8px green, 4px -7px 8px green;
 }
-
 .coin {
-    background: gold;
+    background-image: url("./src/coin.jpg");
 }
