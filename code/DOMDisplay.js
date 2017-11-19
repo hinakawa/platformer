@@ -10,7 +10,7 @@ define([
         return elt;
     }
     // Create new DOM-display
-    var scale = 80;
+    var scale = 60;
     function DOMDisplay(parent, level) {
         console.log(parent);
         this.wrap = parent.appendChild(elt("div", "game"));
