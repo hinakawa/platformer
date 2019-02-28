@@ -1,4 +1,5 @@
 define(function() {
+    // These crazy levels is not mine and was took from https://eloquentjavascript.net/
     var GAME_LEVELS = [
         ["                                                                                ",
          "                                                                                ",
@@ -135,6 +136,7 @@ define(function() {
          "        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   x!!!!!!!!!!!!!!!!!!!!!xxx!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
          "                                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
          "                                                                                                              "]
-      ];
+    ]
+
     return GAME_LEVELS;
 });
